@@ -10,7 +10,7 @@ Go-Blueprint provides a convenient CLI tool to effortlessly set up your Go proje
 To install the Go-Blueprint CLI tool as a binary, run the following command:
 
 ```sh
-go install github.com/melkeydev/go-blueprint@latest
+go install github.com/deantook/vikalanbo@latest
 ```
 
 This command installs the Go-Blueprint binary, automatically binding it to your `$GOPATH`.
@@ -43,7 +43,7 @@ If you prefer to build and install Go-Blueprint directly from the source code, y
 Clone the Go-Blueprint repository from GitHub:
 
 ```sh
-git clone https://github.com/melkeydev/go-blueprint
+git clone https://github.com/deantook/vikalanbo
 ```
 
 Build the Go-Blueprint binary:
@@ -61,7 +61,7 @@ go install
 Verify the installation by running:
 
 ```sh
-go-blueprint version
+vikalanbo version
 ```
 
 This should display the version information of the installed Go-Blueprint.

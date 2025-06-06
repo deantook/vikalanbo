@@ -14,13 +14,13 @@ import (
 	"text/template"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/melkeydev/go-blueprint/cmd/flags"
-	tpl "github.com/melkeydev/go-blueprint/cmd/template"
-	"github.com/melkeydev/go-blueprint/cmd/template/advanced"
-	"github.com/melkeydev/go-blueprint/cmd/template/dbdriver"
-	"github.com/melkeydev/go-blueprint/cmd/template/docker"
-	"github.com/melkeydev/go-blueprint/cmd/template/framework"
-	"github.com/melkeydev/go-blueprint/cmd/utils"
+	"github.com/deantook/vikalanbo/cmd/flags"
+	tpl "github.com/deantook/vikalanbo/cmd/template"
+	"github.com/deantook/vikalanbo/cmd/template/advanced"
+	"github.com/deantook/vikalanbo/cmd/template/dbdriver"
+	"github.com/deantook/vikalanbo/cmd/template/docker"
+	"github.com/deantook/vikalanbo/cmd/template/framework"
+	"github.com/deantook/vikalanbo/cmd/utils"
 )
 
 // A Project contains the data for the project folder

@@ -1,5 +1,5 @@
 /*
-Copyright © 2023 Melkey melkeydev@gmail.com
+Copyright © 2023 Melkey deantook@gmail.com
 */
 package cmd
 
@@ -10,7 +10,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "go-blueprint",
+	Use:   "vikalanbo",
 	Short: "A program to spin up a quick Go project using a popular framework",
 	Long: `Go Blueprint is a CLI tool that allows users to spin up a Go project with the corresponding structure seamlessly. 
 It also gives the option to integrate with one of the more popular Go frameworks!`,

@@ -9,14 +9,14 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/melkeydev/go-blueprint/cmd/flags"
-	"github.com/melkeydev/go-blueprint/cmd/program"
-	"github.com/melkeydev/go-blueprint/cmd/steps"
-	"github.com/melkeydev/go-blueprint/cmd/ui/multiInput"
-	"github.com/melkeydev/go-blueprint/cmd/ui/multiSelect"
-	"github.com/melkeydev/go-blueprint/cmd/ui/spinner"
-	"github.com/melkeydev/go-blueprint/cmd/ui/textinput"
-	"github.com/melkeydev/go-blueprint/cmd/utils"
+	"github.com/deantook/vikalanbo/cmd/flags"
+	"github.com/deantook/vikalanbo/cmd/program"
+	"github.com/deantook/vikalanbo/cmd/steps"
+	"github.com/deantook/vikalanbo/cmd/ui/multiInput"
+	"github.com/deantook/vikalanbo/cmd/ui/multiSelect"
+	"github.com/deantook/vikalanbo/cmd/ui/spinner"
+	"github.com/deantook/vikalanbo/cmd/ui/textinput"
+	"github.com/deantook/vikalanbo/cmd/utils"
 	"github.com/spf13/cobra"
 )
 

@@ -2,9 +2,9 @@
 
 site_name: Go-Blueprint Docs
 site_description: Official documentation for Go-Blueprint project
-site_url: https://docs.go-blueprint.dev/
+site_url: https://docs.vikalanbo.dev/
 
-repo_url: https://github.com/Melkeydev/go-blueprint
+repo_url: https://github.com/Melkeydev/vikalanbo
 edit_uri: edit/main/docs/docs
 
 ### Build settings ###

@@ -14,7 +14,7 @@ import (
 	"github.com/spf13/pflag"
 )
 
-const ProgramName = "go-blueprint"
+const ProgramName = "vikalanbo"
 
 // NonInteractiveCommand creates the command string from a flagSet
 // to be used for getting the equivalent non-interactive shell command

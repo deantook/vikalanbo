@@ -38,7 +38,7 @@ gives the option to integrate with one of the more popular Go frameworks (and th
 </h2>
 
 ```bash
-go install github.com/melkeydev/go-blueprint@latest
+go install github.com/deantook/vikalanbo@latest
 ```
 
 This installs a go binary that will automatically bind to your $GOPATH
@@ -58,16 +58,16 @@ source ~/.zshrc
 Then in a new terminal run:
 
 ```bash
-go-blueprint create
+vikalanbo create
 ```
 
 You can also use the provided flags to set up a project without interacting with the UI.
 
 ```bash
-go-blueprint create --name my-project --framework gin --driver postgres --git commit
+vikalanbo create --name my-project --framework gin --driver postgres --git commit
 ```
 
-See `go-blueprint create -h` for all the options and shorthands.
+See `vikalanbo create -h` for all the options and shorthands.
 
 <a id="frameworks-supported"></a>
 
@@ -138,7 +138,7 @@ Note: Selecting Tailwind option will automatically select HTMX unless React is e
   Blueprint UI
 </h2>
 
-Blueprint UI is a web application that allows you to create commands for the CLI and preview the structure of your project. You will be able to see directories and files that will be created upon command execution. Check it out at [go-blueprint.dev](https://go-blueprint.dev)
+Blueprint UI is a web application that allows you to create commands for the CLI and preview the structure of your project. You will be able to see directories and files that will be created upon command execution. Check it out at [vikalanbo.dev](https://vikalanbo.dev)
 
 <a id="usage-example"></a>
 
@@ -152,7 +152,7 @@ Blueprint UI is a web application that allows you to create commands for the CLI
 Here's an example of setting up a project with a specific database driver:
 
 ```bash
-go-blueprint create --name my-project --framework gin --driver postgres --git commit
+vikalanbo create --name my-project --framework gin --driver postgres --git commit
 ```
 
 <p align="center">
@@ -162,7 +162,7 @@ go-blueprint create --name my-project --framework gin --driver postgres --git co
 Advanced features are accessible with the --advanced flag
 
 ```bash
-go-blueprint create --advanced
+vikalanbo create --advanced
 ```
 
 Advanced features can be enabled using the `--feature` flag along with the `--advanced` flag.
@@ -170,50 +170,50 @@ Advanced features can be enabled using the `--feature` flag along with the `--ad
 HTMX:
 
 ```bash
-go-blueprint create --advanced --feature htmx
+vikalanbo create --advanced --feature htmx
 ```
 
 CI/CD workflow:
 
 ```bash
-go-blueprint create --advanced --feature githubaction
+vikalanbo create --advanced --feature githubaction
 ```
 
 Websocket:
 
 ```bash
-go-blueprint create --advanced --feature websocket
+vikalanbo create --advanced --feature websocket
 ```
 
 Tailwind:
 
 ```bash
-go-blueprint create --advanced --feature tailwind
+vikalanbo create --advanced --feature tailwind
 ```
 
 Docker:
 
 ```bash
-go-blueprint create --advanced --feature docker
+vikalanbo create --advanced --feature docker
 ```
 
 React:
 
 ```bash
-go-blueprint create --advanced --feature react
+vikalanbo create --advanced --feature react
 ```
 
 Or all features at once:
 
 ```bash
-go-blueprint create --name my-project --framework chi --driver mysql --advanced --feature htmx --feature githubaction --feature websocket --feature tailwind --feature docker --git commit --feature react
+vikalanbo create --name my-project --framework chi --driver mysql --advanced --feature htmx --feature githubaction --feature websocket --feature tailwind --feature docker --git commit --feature react
 ```
 
 <p align="center">
   <img src="./public/blueprint_advanced.png" alt="Advanced Options" width="800"/>
 </p>
 
-**Visit [documentation](https://docs.go-blueprint.dev) to learn more about blueprint and its features.**
+**Visit [documentation](https://docs.vikalanbo.dev) to learn more about blueprint and its features.**
 
 <a id="github-stats"></a>
 
